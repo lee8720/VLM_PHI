@@ -28,7 +28,7 @@ for filename in file_list:
         print(f"Error processing {filename}: {e}")
 
 
-# 엑셀 파일 저장
+# save to excel
 output_excel_path = r'####.xlsx'
 wb.save(output_excel_path)
 
